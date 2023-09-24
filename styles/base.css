@@ -367,3 +367,13 @@ hr {
     border: 1px solid #ddd;
     margin: 20px 0;
 }
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}

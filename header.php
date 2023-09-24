@@ -11,8 +11,8 @@
     <?php wp_body_open() ?>
     
     <div id="page" class="site">
-        <header class="site-header">
-            <div class="container">
+        <header class="site__header container">
+            <div class="wrapper">
                 Header
             </div>
         </header>

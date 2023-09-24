@@ -1,6 +1,4 @@
-.site-header{
+.site__header{
     height: 120px;
-    width: 100%;
-    /* max-width: 1160px; */
-    background-color: #eaae00;
+    background-color: var(--color-dark-yellow);
 }
