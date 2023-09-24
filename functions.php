@@ -6,6 +6,9 @@ function veterinary_load_scripts()
     wp_enqueue_style('all-styles', get_theme_file_uri('/styles/all-styles.css'), array(), '1.0', 'all');
 
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap', array(), null);
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+    wp_enqueue_script('dropdown', get_theme_file_uri('/js/main.js'), array(), '1.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'veterinary_load_scripts');
@@ -27,3 +30,5 @@ if (!function_exists('wp_body_open')) {
         do_action('wp_body_open');
     }
 }
+
+add_filter('show_admin_bar', '__return_false');
