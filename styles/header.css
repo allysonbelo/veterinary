@@ -27,14 +27,48 @@
     font-size: 1.7rem;
 }
 
+.menu__search {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: var(--color-blue);
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white)
+}
+
 .menu__mobile_popup {
-    width: 300px;
+    width: 0px;
     height: 100%;
     max-height: 500px;
-    background-color: red;
+    background-color: var(--color-yellow);
     position: absolute;
     right: 0px;
     top: 120px;
+    padding: 10px;
+    display: none;
+}
+
+.menu__mobile_popup.active {
+    display: block;
+    width: 300px;
+}
+
+.menu__mobile_popup form {
+    display: block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+}
+
+.header__content .menu__mobile_popup form input {
+    background-color: var(--color-dark-yellow);
 }
 
 .header__menu--mobile li {
@@ -59,6 +93,17 @@
     color: var(--color-white);
 }
 
+.swiper-horizontal{
+    padding: 20px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 0px;
+}
+
 @media screen and (min-width: 769px) {
     .header__menu--mobile {
         display: none;
@@ -69,6 +114,20 @@
         column-gap: 40px;
         justify-content: center;
         width: 100%;
+    }
+
+    .menu__search {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(0%, -50%);
+        background-color: var(--color-blue);
+        height: 100%;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-white)
     }
 
     .header__menu--desktop li {
@@ -86,21 +145,11 @@
         position: relative;
     }
 
-    .menu__search {
-        position: absolute;
-        right: 0px;
-        top: 50%;
-        transform: translate(0%, -50%);
-        background-color: var(--color-blue);
-        height: 100%;
-        width: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--color-white)
+    .menu__mobile_popup {
+        display: none;
     }
 
-    .menu__mobile_popup {
+    .menu__mobile_popup.active {
         display: none;
     }
 }
