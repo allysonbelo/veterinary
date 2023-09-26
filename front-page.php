@@ -1,5 +1,7 @@
 <?php get_header() ?>
 
-<div style="min-height: 100vh;"></div>
+<main>
+    <?php get_template_part('/parts/hero'); ?>
+</main>
 
 <?php get_footer() ?>
