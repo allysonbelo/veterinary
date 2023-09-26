@@ -263,7 +263,9 @@ table {
 :root {
     --color-dark-yellow: #eaae00;
     --color-yellow: #ffc400;
+    --color-yellow-hover: #e9b302;
     --color-blue: #00bfcb;
+    --color-blue-hover: #01a7b3;
     --color-dark-gray: #2d2e42;
     --color-black: #313131;
     --color-white: #ffffff;
@@ -368,12 +370,60 @@ hr {
     margin: 20px 0;
 }
 
-.container{
+.container {
     width: 100%;
 }
 
-.wrapper{
+.wrapper {
     width: 100%;
     max-width: 1160px;
     margin: 0 auto;
+}
+
+/* Buttons */
+.button__primary--blue,
+.button__primary--yellow,
+.button__primary--radius {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 8px;
+    width: 180px;
+    height: clamp(45px, 12vw, 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color .3s ease;
+}
+
+.button__secondary {
+    background-color: transparent;
+    color: var(--color-white);
+    border-radius: 8px;
+    width: 180px;
+    height: clamp(45px, 12vw, 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 3px solid var(--color-white);
+    transition: background-color .3s ease;
+}
+
+.button__primary--yellow {
+    background-color: var(--color-blue)
+}
+
+.button__primary--radius {
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+}
+
+.button__primary--blue:hover{
+    background-color: var(--color-blue-hover);
+}
+
+.button__secondary:hover{
+    background-color: var(--color-yellow-hover);
 }
