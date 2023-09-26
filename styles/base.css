@@ -411,7 +411,7 @@ hr {
 }
 
 .button__primary--yellow {
-    background-color: var(--color-blue)
+    background-color: var(--color-yellow)
 }
 
 .button__primary--radius {
@@ -426,4 +426,8 @@ hr {
 
 .button__secondary:hover{
     background-color: var(--color-yellow-hover);
+}
+
+.button__primary--yellow:hover {
+    background-color: var(--color-yellow-hover)
 }

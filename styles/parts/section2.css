@@ -1,0 +1,104 @@
+.section__2 {
+    background-color: var(--color-white);
+    padding: 0 10px;
+}
+
+.section__2__content {
+    display: grid;
+    grid-template-areas:
+        "section__2-r"
+        "section__2-l"
+    ;
+    align-items: center;
+    justify-content: space-between;
+    height: 777px;
+}
+
+.section__2__left {
+    grid-area: section__2-l;
+    display: flex;
+    flex-direction: column;
+    row-gap: clamp(15px, 3.6vw, 50px);
+    position: relative;
+    top: -50px;
+
+    overflow: hidden;
+}
+
+.section__2__left h2 {
+    color: var(--color-dark-gray);
+    font-weight: 600;
+    line-height: clamp(42px, 8vw, 60px);
+    font-size: clamp(35px, 7vw, 52px);
+    text-align: left;
+}
+
+.section__2__left p {
+    color: var(--color-dark-gray);
+    line-height: 30px;
+}
+
+.section__2__buttons {
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__2__right {
+    grid-area: section__2-r;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.section__2__right::before{
+    content: '';
+    width: 238px;
+    height: 210px;
+    background-color: var(--color-yellow);
+    position: absolute;
+    bottom: -20px;
+    right: clamp(110px, 21.9vw, 315px);
+    display: block;
+    z-index: -1;
+}
+
+.section__2__right img {
+    max-width: clamp(245px, 36vw, 510px);
+    position: relative;
+    z-index: 4;
+    display: block;
+}
+
+@media screen and (min-width: 769px) {
+    .section__2__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "section__2-l section__2-r";
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section__2__right {
+        justify-content: flex-end;
+    }
+
+    .section__2__left {
+        position: static;
+    }
+
+    .section__2__left h1 {
+        text-align: left;
+    }
+
+    .section__2__buttons {
+        display: flex;
+        column-gap: 35px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
