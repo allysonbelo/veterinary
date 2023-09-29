@@ -1,6 +1,7 @@
 .section__3 {
     background-color: var(--color-white);
     padding: 0 20px;
+    overflow: hidden;
 }
 
 .section__3__content {
