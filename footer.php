@@ -49,7 +49,7 @@
                     </li>
                 </ul>
                 <form action="#">
-                    <input type="text" name="" id="">
+                    <input type="text" name="" id="" aria-label="subscribe">
                     <i class="fa-solid fa-paper-plane"></i>
                 </form>
                 <div class="footer__social">

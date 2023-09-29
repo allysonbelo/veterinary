@@ -1,6 +1,6 @@
 .hero {
     background-color: var(--color-yellow);
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .hero__content {
@@ -53,7 +53,8 @@
 }
 
 .hero__right img {
-    max-width: clamp(245px, 36vw, 419px);
+    width: clamp(245px, 36vw, 419px);
+    height: 100%;
 }
 
 @media screen and (min-width: 769px) {

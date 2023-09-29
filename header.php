@@ -4,6 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O melhor para o seu amiguinho de pelo">
     <script src="https://kit.fontawesome.com/81cf49532b.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
