@@ -1,10 +1,10 @@
 .site__header {
-    height: 120px;
+    height: 100px;
     background-color: var(--color-dark-yellow);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .header__content {
@@ -12,6 +12,11 @@
     align-items: center;
     justify-content: space-between;
     max-width: 1160px;
+}
+
+.header__content img{
+    width: 212px;
+    height: 100%;
 }
 
 .header__menu--desktop,
@@ -45,12 +50,13 @@
     width: 0px;
     height: 100%;
     max-height: 500px;
-    background-color: var(--color-yellow);
+    background-color: var(--color-dark-yellow);
     position: absolute;
     right: 0px;
-    top: 120px;
+    top: 100px;
     padding: 10px;
     display: none;
+    z-index: 2;
 }
 
 .menu__mobile_popup.active {
@@ -68,7 +74,7 @@
 }
 
 .header__content .menu__mobile_popup form input {
-    background-color: var(--color-dark-yellow);
+    background-color: var(--color-yellow);
 }
 
 .header__menu--mobile li {
@@ -90,7 +96,7 @@
 }
 
 .header__content form input::placeholder {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .swiper-horizontal{
@@ -131,7 +137,7 @@
     }
 
     .header__menu--desktop li {
-        color: var(--color-white);
+        color: var(--color-black);
         transition: color .3s ease;
     }
 

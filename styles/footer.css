@@ -20,7 +20,7 @@
 
 .footer__column form{
     position: relative;
-    height: clamp(50px, 11.8vw, 90px);
+    height: clamp(50px, 11.8vw, 70px);
     background-color: var(--color-white);
     overflow: hidden;
 }
@@ -32,7 +32,7 @@
     height: 100%;
     transform: translate(0, -50%);
     background-color: var(--color-blue);
-    width: clamp(90px, 10vw, 145px);
+    width: clamp(90px, 10vw, 100px);
     display: flex;
     align-items: center;
     justify-content: center;
