@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="section__2__right">
-                <a href="#">
+                <a href="#" aria-label="Video do youtube">
                     <img src="<?php echo get_theme_file_uri('assets/img/thumbnail-video.webp') ?>" alt="">
                 </a>
             </div>
