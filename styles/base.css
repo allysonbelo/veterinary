@@ -420,11 +420,12 @@ hr {
     height: 60px;
 }
 
-.button__primary--blue:hover{
+.button__primary--blue:hover,
+.button__primary--radius:hover {
     background-color: var(--color-blue-hover);
 }
 
-.button__secondary:hover{
+.button__secondary:hover {
     background-color: var(--color-yellow-hover);
 }
 
