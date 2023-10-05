@@ -9,18 +9,27 @@
                 <div class="cards">
                     <div class="card">
                         <img src="<?php echo get_theme_file_uri('assets/img/cao-bulldog-perfil.webp') ?>" alt="">
-                        <h3>Veterinarian</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolore.</p>
+                        <div class="price">
+                            <span class="old__price">$50</span>
+                            <span class="new__price">$30</span>
+                        </div>
+                        <a href="#" class="button__primary--radius">Buy now</a>
                     </div>
                     <div class="card">
                         <img src="<?php echo get_theme_file_uri('assets/img/cachorro-branco-preto-sentado.webp') ?>" alt="">
-                        <h3>Veterinarian</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolore.</p>
+                        <div class="price">
+                            <span class="old__price">$40</span>
+                            <span class="new__price">$25</span>
+                        </div>
+                        <a href="#" class="button__primary--radius">Buy now</a>
                     </div>
                     <div class="card">
                         <img src="<?php echo get_theme_file_uri('assets/img/cachorro-labrador-sentado.webp') ?>" alt="">
-                        <h3>Veterinarian</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, dolore.</p>
+                        <div class="price">
+                            <span class="old__price">$45</span>
+                            <span class="new__price">$20</span>
+                        </div>
+                        <a href="#" class="button__primary--radius">Buy now</a>
                     </div>
                 </div>
             </div>
