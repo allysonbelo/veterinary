@@ -9,6 +9,7 @@
     get_template_part('/parts/section5');
     get_template_part('/parts/section6');
     get_template_part('/parts/section7');
+    get_template_part('/parts/section8');
     ?>
 </main>
 
