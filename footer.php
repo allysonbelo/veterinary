@@ -59,7 +59,17 @@
                     <i class="fa-brands fa-whatsapp"></i>
                 </div>
             </div>
+            <span class="credit__author">
+                Designed by
+                <a href="https://www.freepik.com">Freepik</a>
+                and developed by
+                <a href="https://www.freepik.com">Allyson Belo Cavalcante</a>
+            </span>
         </div>
+    </div>
+    <div class="popup__info">
+        <span class="close__popup">X</span>
+        <span>This is a example site, created for show my habilities!</span>
     </div>
 </footer>
 
