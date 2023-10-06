@@ -23,3 +23,12 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 //Slider - End
+
+// Close popup Info - Start
+
+let closePopUp = document.querySelector('.popup__info');
+closePopUp.addEventListener('click', () => {
+    closePopUp.style.display = 'none';
+})
+
+// Close popup Info - End
