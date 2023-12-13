@@ -17,8 +17,8 @@ function veterinary_config()
 {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
-    add_theme_support( 'automatic-feed-links' );
-    add_theme_support( 'html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) );
+    add_theme_support('automatic-feed-links');
+    add_theme_support('html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script'));
 }
 
 add_action('after_setup_theme', 'veterinary_config', 0);
@@ -32,3 +32,7 @@ if (!function_exists('wp_body_open')) {
 }
 
 add_filter('show_admin_bar', '__return_false');
+
+// functions.php
+
+include_once('inc/theme-options.php');

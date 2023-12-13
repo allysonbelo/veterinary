@@ -69,7 +69,7 @@
     </div>
     <div class="popup__info">
         <span class="close__popup">X</span>
-        <span>This is a example site, created for show my habilities!</span>
+        <span>This is an example site, created for show my habilities!</span>
     </div>
 </footer>
 
